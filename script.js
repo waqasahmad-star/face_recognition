@@ -49,9 +49,9 @@ function loadLabeledImages() {
     "Captain Marvel",
     "Hawkeye",
     "Jim Rhodes",
-    "Romessa Khan",
     "Thor",
-    "Tony Stark"
+    "Tony Stark",
+    "Romessa Khan",
   ];
   return Promise.all(
     labels.map(async label => {
