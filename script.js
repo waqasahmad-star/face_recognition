@@ -49,15 +49,16 @@ function loadLabeledImages() {
     "Captain Marvel",
     "Hawkeye",
     "Jim Rhodes",
+    "Romessa Khan",
     "Thor",
-    "Tony Stark",
+    "Tony Stark"
   ];
   return Promise.all(
     labels.map(async label => {
       const descriptions = [];
       for (let i = 1; i <= 2; i++) {
         const img = await faceapi.fetchImage(
-          `https://raw.githubusercontent.com/WebDevSimplified/Face-Recognition-JavaScript/master/labeled_images/${label}/${i}.jpg`
+          `https://raw.githubusercontent.com/waqasahmad-star/face_recognition/master/labeled_images/${label}/${i}.jpg`
         );
         console.log("label: ", label);
         console.log("i: ", i);
