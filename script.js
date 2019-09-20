@@ -57,6 +57,7 @@ function loadLabeledImages() {
           .detectSingleFace(img)
           .withFaceLandmarks()
           .withFaceDescriptor();
+        //console.log("detections :", detections)
         descriptions.push(detections.descriptor);
       }
 
