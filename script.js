@@ -44,14 +44,13 @@ async function start() {
 
 function loadLabeledImages() {
   const labels = [
-    "Black Widow",
-    "Captain America",
-    "Captain Marvel",
-    "Hawkeye",
-    "Jim Rhodes",
-    "Thor",
-    "Tony Stark",
-    "Romessa Khan",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
   ];
   return Promise.all(
     labels.map(async label => {
